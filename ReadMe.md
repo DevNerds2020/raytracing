@@ -22,12 +22,10 @@ there are different concepts in 3d rendering some examples are:
 
 2. Set up the OpenGL rendering context and viewport. This includes creating an OpenGL window, specifying the projection matrix, and defining the camera position and orientation.
 
-Define the lighting parameters, such as the light source position, intensity, and color. You can use different types of lighting models, such as diffuse, specular, and ambient lighting.
+3. Define the lighting parameters, such as the light source position, intensity, and color. You can use different types of lighting models, such as diffuse, specular, and ambient lighting.
 
-Set up the shadow mapping technique. This involves rendering the scene from the perspective of the light source and storing the depth information of the objects in a texture map.
+4. Set up the shadow mapping technique. This involves rendering the scene from the perspective of the light source and storing the depth information of the objects in a texture map.
 
-Render the 3D object using the loaded model and texture. Apply the lighting and shadowing effects by calculating the color of each vertex based on the lighting and shadow maps.
+5. Render the 3D object using the loaded model and texture. Apply the lighting and shadowing effects by calculating the color of each vertex based on the lighting and shadow maps.
 
-Finally, present the rendered image to the user by swapping the back buffer with the front buffer.
-
-
+6. Finally, present the rendered image to the user by swapping the back buffer with the front buffer.
